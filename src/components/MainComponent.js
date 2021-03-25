@@ -10,13 +10,11 @@ class Main extends Component {
 
     render() {
         return (
-
                 <Switch>
                     <Route path='/home' component={Home} />
                     {/* <Redirect to="/home" /> */}
                     <Route path = '/job/:id' component={JobDetail} />
                 </Switch>
-
         );
     }
 }
